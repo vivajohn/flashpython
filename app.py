@@ -9,7 +9,7 @@ from munch import Munch
 app = Flask(__name__)
 
 # Initialize Firestore DB
-cred = credentials.Certificate('blazorapp1-50c53-firebase-adminsdk-ucwtd-69efb797ea.json')
+cred = credentials.Certificate('blazorapp1-50c53-firebase-adminsdk-ucwtd-2117b9c719.json')
 default_app = initialize_app(cred)
 db = firestore.client()
 
